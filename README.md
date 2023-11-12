@@ -31,20 +31,20 @@ to get started:
 5. **GitHub Account:** If you don't already have a GitHub account, go to [www.github.com](https://www.github.com)
    and create one. Please use your real name as your GitHub username, all in lowercase with no spaces (e.g., `samirm00`).
 
-6. **Fork the Repository:** Fork the assignment repository by clicking on `Fork`, then you will have your own copy of the repo on your GitHub account.
-7. **Clone your repo from your GitHub account:** Clone the assignment repository by clicking on `Code`, then copy `HTTPS` link
+6. **Fork the Repository:** Fork the assignment repository by clicking on `Fork`,
+   then you will have your own copy of the repo on your GitHub account.
+7. **Clone your repo from your GitHub account:**
+   Clone the assignment repository by clicking on `Code`, then copy `HTTPS` link
 8. **Open your terminal:** Open your Terminal or Git bash on Windows and type
 
-```bash
+````bash
 git clone <HTTPS link>
-```
-
-9. **Open your cloned repo in VS code** : open the cloned repo in VS code.
+```9. **Open your cloned repo in VS code** : open the cloned repo in VS code.
 10. **Open Terminal in VS Code:** Open Visual Studio Code and click on "Terminal," then choose "New Terminal."
 11. **Install Dependencies:** Install the project dependencies by running the following command inside your project folder:
 
     ```bash
-    npm install
+
     ```
 
 ## Write your code
@@ -60,8 +60,6 @@ git clone <HTTPS link>
 
    ```bash
    npm run format
-   ```
-
 3. Spell Check
 
    Check your code for spelling errors using:
@@ -71,7 +69,6 @@ git clone <HTTPS link>
    ```
 
 4. Linting
-
    Lint your code for best practices:
 
    ```bash
@@ -86,20 +83,16 @@ git clone <HTTPS link>
 
    ```bash
    git add .
-   ```
-
 6. Commit your changes with a descriptive message:
 
    ```bash
    git commit -m 'Add calculator project'
-   ```
 
 7. Push your changes to your GitHub repository:
 
    ```bash
    git push
    ```
-
 ## Submission
 
 Once you have completed your calculator project and pushed your changes to your GitHub repository,
